@@ -119,3 +119,9 @@ Deleting Records
 $object = Example::getByID(1); // returns an instance of an Example record
 $object->destroy(); // runs dynamic public function destroy
 ```
+
+
+Credits
+=======
+Original class written by [Chris Alfano](https://github.com/themightychris) for the [Emergence Framework](http://emr.ge).
+Slightly modified by Henry Paradiz for usage in stand alone situations.
