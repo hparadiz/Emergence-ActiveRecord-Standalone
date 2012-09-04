@@ -21,7 +21,9 @@ Please be aware.
 
 If using your own autoloader please include this code to initialize the model properly.
 
-``if(method_exists($class, '__classLoaded'))
+```php
+if(method_exists($class, '__classLoaded'))
 {
 	call_user_func(array($class, '__classLoaded'));
-}``
+}
+```
